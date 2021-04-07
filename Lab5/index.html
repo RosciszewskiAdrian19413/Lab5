@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Lab5_19413</title>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="js/CheckForm.js" rel="script">
+  
+</head>
+
+
+<body>
+<nav class="navbar navbar-inverse  navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" ariaexpanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="#">
+        <div id="logo">
+        <div class="circle">
+          <img class="logo" src="img/logo.png" alt="logo">
+      </div>
+        </div>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav text-right">
+        <li class="active"><a href="#main-page"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Strona główna</a></li>
+        <li><a href="#section2"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Informacje</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Zdjęcia</a></li>
+        <li><a href="#p2"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Kontakt</a></li>
+        <li><a href="#logo"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>O mnie</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Zaloguj sie</a></li>
+      </ul>
+    </div>
+	
+  </div>
+</nav>
+  <header>
+<div class= "container">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+
+
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+
+  <!-- Slider -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="slider" src="img/p1.jpg" alt="Queen">
+      <div class="carousel-caption">
+        Queen
+      </div>
+    </div>
+    <div class="item">
+      <img class="slider" src="img/p2.jpg" alt="Led Zeppelin">
+      <div class="carousel-caption">
+        Led Zeppelin
+      </div>
+    </div>
+    <div class="item">
+      <img class="slider" src="img/p3.jpg" alt="The Scorpions">
+      <div class="carousel-caption">
+        The Scorpions
+        </div>
+      </div>
+      <div class="item">
+      <img class="slider" src="img/p4.jpg" alt="ACDC">
+      <div class="carousel-caption">
+        AC/DC
+        </div>
+      </div>
+      
+  </div>
+
+  <!-- Kontrola -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</header>
+
+<section id="main-page" class="jumbotron">
+<div class="container">
+<h1><span class="glyphicon glyphicon-home" aria-hidden="true"></h1>
+<h1>Pierwsza sekcja strony!</h1>
+<p>
+Strona będzie zawierała informacje o poszczególnych zespołach rockowych z lat 70 i 80. Na celownik będą brane Queen, Led Zeppelin, The Scorpions oraz AC/DC.
+Autor strony jest pasjonatem muzyki który praktycznie połowę swojego cwolnego czasu spędza na słuchaniu jej. 
+</p>
+</div> 
+</section>
+
+
+
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <!--  <p><a href="#">Strona główna</a></p>-->
+      <!--  <p><a href="#">O mnie</a></p>-->
+      <!--  <p><a href="#">Kontakt</a></p>-->
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Adrian Rościszewski 19413</h1>
+      <table class="table">
+            <tr>
+                <td class="colors" rowspan="2">L.p.</td>
+                <td class="colors" colspan="2">Osoba</td>
+                <td class="colors" rowspan="2">Informacje</td>
+            </tr>
+            <tr>
+                <td class="colors">Imie</td>
+                <td class="colors">Nazwisko</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Jan</td>
+                <td>Kowalski</td>
+                <td>Student</td>
+            </tr>
+            <tr> 
+                <td>2.</td>
+                <td>Anna</td>
+                <td>Nowak</td>
+                <td>Student</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Maria</td>
+                <td>Kowalska</td>
+                <td>Absolwent</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Michał</td>
+                <td>Nowak</td>
+                <td>Student</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="ad">
+        <!--<h1>AR</h1>-->
+      </div>
+      <div class="ad">
+        <!--<h1>AR</h1>-->
+      </div>
+      <div class="ad">
+        <!--<h1>AR</h1>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Part2-->
+<section id="section2">
+  <div class="container">
+    <h1 class="text-info">Song of the last Century.</h1>
+    <p>
+     <br><br/>Is this the real life? Is this just fantasy?<br><br/>
+Caught in a landslide, no escape from reality<br><br/>
+Open your eyes, look up to the skies and see<br><br/>
+I'm just a poor boy, I need no sympathy<br><br/>
+Because I'm easy come, easy go, little high, little low<br><br/>
+Any way the wind blows doesn't really matter to me, to me<br><br/><br><br/>
+
+Mama, just killed a man<br><br/>
+Put a gun against his head, pulled my trigger, now he's dead<br><br/>
+Mama, life had just begun<br><br/>
+But now I've gone and thrown it all away<br><br/>
+Mama, ooh, didn't mean to make you cry<br><br/>
+If I'm not back again this time tomorrow<br><br/>
+Carry on, carry on as if nothing really matters<br><br/><br><br/>
+
+Too late, my time has come<br><br/>
+Sends shivers down my spine, body's aching all the time<br><br/>
+Goodbye, everybody, I've got to go<br><br/>
+Gotta leave you all behind and face the truth<br><br/>
+Mama, ooh (Any way the wind blows)<br><br/>
+I don't wanna die<br><br/>
+I sometimes wish I'd never been born at all<br><br/>
+[Guitar Solo]<br><br/><br><br/>
+
+I see a little silhouetto of a man<br><br/>
+Scaramouche, Scaramouche, will you do the Fandango?<br><br/>
+Thunderbolt and lightning, very, very frightening me<br><br/>
+(Galileo) Galileo, (Galileo) Galileo, Galileo Figaro magnifico<br><br/>
+But I'm just a poor boy, nobody loves me<br><br/>
+He's just a poor boy from a poor family<br><br/>
+Spare him his life from this monstrosity<br><br/>
+Easy come, easy go, will you let me go?<br><br/>
+Bismillah! No, we will not let you go<br><br/>
+(Let him go) Bismillah! We will not let you go<br><br/>
+(Let him go) Bismillah! We will not let you go<br><br/>
+(Let me go) Will not let you go<br><br/>
+(Let me go) Will not let you go<br><br/>
+(Never, never, never, never let me go) Ah<br><br/>
+No, no, no, no, no, no, no<br><br/>
+(Oh, mamma mia, mamma mia) Mamma mia, let me go<br><br/>
+Beelzebub has a devil put aside for me, for me, for me!<br><br/><br><br/>
+
+So you think you can stone me and spit in my eye?<br><br/>
+So you think you can love me and leave me to die?<br><br/>
+Oh, baby, can't do this to me, baby!<br><br/>
+Just gotta get out, just gotta get right outta here<br><br/><br><br/>
+
+(Ooh)<br><br/>
+(Ooh, yeah, ooh, yeah)<br><br/>
+Nothing really matters, anyone can see<br><br/>
+Nothing really matters <br><br/>
+Nothing really matters to me <br><br/>
+Any way the wind blows<br><br/>
+
+Powyższy tekst najprawdopodobniej zna każdy z nas. To tekst przełomowego, jak na tamte i dzisiejsze czasy, utworu autorstwa Queen.
+Dlaczego ten utwór jest tak ikoniczny i tak bardzo zapisał się w naszych myślach?
+Głównym powodem jest jego konstrukcja. Jest nietypowa, składa się z po kolei: zwrotki, refrenu, zwrotki, refrenu, sekcji operowej, sekcji rockowej oraz outra w formie kołysanki.
+ 
+    </p>    
+  </div>
+</section>
+
+<div class="container">
+<section id="p2">
+  <div class="container">
+    <h1 class="text-danger">Kontakt ze mna: </h1>
+    <form action="index.html#kontakt" method="post" onsubmit="return checkForm();" >
+      <fieldset>
+        <div class="form-group" id="name">
+          <p id="errorName" class="hide">Podanie imienia jest wymagane!</p> 
+          <label for="contactName">Imię</label>
+          <input type="text" class="form-control onblur="CheckForm()" id="contactName" placeholder="Podaj imię"/>
+        </div>
+        
+        <div class="form-group" id="sur">
+          <p id="errorSur" class="hide">Podanie nazwiska jest wymagane!</p> 
+          <label for="contactSur">Nazwisko</label>
+          <input type="text" class="form-control" onblur="CheckForm() id="contactSur" placeholder="Podaj nazwisko"/>
+        </div>
+         
+        <div class="form-group" id="mail">
+          <p id="errorEmail" class="hide">Podanie emaila jest wymagane!</p> 
+          <label for="contactEmail">Email</label>
+          <input type="text" class="form-control" onblur="CheckForm() id="contactEmail" placeholder="Podaj email"/>
+        </div>
+
+        <div class="form-group" id="info"> 
+          <p id="errorInfo" class="hide" >Podanie informacji jest wymagane!</p> 
+          <label for="contactInfo">Informacje</label>
+          <textarea class="form-control rounded-0" id="contactInfo" rows="6" placeholder="Podaj informacje"></textarea>
+        </div>
+
+        <input type="submit" class="btn btn-danger" value="Wyślij"/>
+      </fieldset>
+    </form>     
+  </div>
+</section>
+
+
+
+<div class="row">
+  <div class="col-sm-4 text-center">
+    <img src="img/insta.png" class="img-circle center-block img-responsie" alt="Kwadrat" height=100 width=100>
+    <h3 class="text-warning" >Instagram</h3>
+  </div>
+  <div class="col-sm-4 text-center">
+    <img src="img/fb.png" class="img-circle center-block img-responsie" alt="Kwadrat" height=100 width=100>
+    <h3 class="text-success">Facebook</h3>
+  </div>
+  <div class="col-sm-4 text-center">
+    <img src="img/sp.png" class="img-circle center-block img-responsie" alt="Kwadrat" height=100 width=100>
+    <h3 class="text-danger">Twitter</h3>
+  </div>
+</div> 
+</div>
+
+<!--Stopka-->
+<footer class="container text-center">
+    <div class="container">
+      <button type="button" class="btn btn-primary btn-sm btn btn-info" data-toggle="modal" data-target="#myModal">
+         Nie klikaj w to
+      </button> 
+    </div> 
+</footer>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" arialabel="Close"><span ariahidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Nie klikaj.</h4>
+      </div>
+      <div class="modal-body">
+          Mowilem zebys nie klikal.
+      </div> 
+      <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div> 
+    </div>
+  </div>
+</div> 
+
+</body>
+</html>

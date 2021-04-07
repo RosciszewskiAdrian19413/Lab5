@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    font-family: 'Megadeth Font';
+    font-size:20px;
+	text-align: justify;
+	text-justify: inter-word;
+    background-color:black;
+	
+
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin: 0px 20px 0px 0px;
+    display: block;
+    flex: 1;
+}
+.circle{
+    width:60px;
+    height:60px;
+    border-radius:50px;
+    font-size:20px;
+    line-height:100px;
+    text-align:center;
+    background:black
+}
+
+.ad{
+    background-color:black;
+	font-weight: bold;
+}
+.colors{
+	background-color: black;
+}
+
+.slider{
+    width:1280px;
+    height: 720px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Dosis', sans-serif;
+	color: #890001;
+
+}
+navbar-inverse .nav li a .glyphicon 
+{
+    color: #890001;
+} 
+#main-page{
+	background-color:black;
+}
+
+.carousel{
+	
+}
